@@ -4,6 +4,7 @@ import {
   Sparkles, LogOut, CheckCircle, ChevronDown, Layers
 } from 'lucide-react';
 import { User } from '../types';
+import { SUPPORTED_LANGUAGES, getTranslation } from '../utils/i18n';
 
 interface HeaderProps {
   user: User | null;
@@ -43,21 +44,10 @@ export const Header: React.FC<HeaderProps> = ({
   const [langMenuOpen, setLangMenuOpen] = useState(false);
   const [a11yMenuOpen, setA11yMenuOpen] = useState(false);
 
-  const languages = [
-    { code: 'en', name: 'English', active: true },
-    { code: 'hi', name: 'हिन्दी (Hindi)', active: true },
-    { code: 'bn', name: 'বাংলা (Bengali)', active: false },
-    { code: 'ta', name: 'தமிழ் (Tamil)', active: false },
-    { code: 'gondi', name: 'गोंडी (Gondi)', active: false },
-    { code: 'santali', name: 'ᱥᱟᱱᱛᱟᱲᱤ (Santali)', active: false },
-    { code: 'bhili', name: 'भीली (Bhili)', active: false },
-  ];
+  const t = getTranslation(activeLanguage);
+  const currentLang = SUPPORTED_LANGUAGES.find(l => l.code === activeLanguage) || SUPPORTED_LANGUAGES[0];
 
-  const handleSelectLang = (code: string, isActive: boolean) => {
-    if (!isActive) {
-      alert("This language is currently being added. Please continue in English or Hindi.");
-      return;
-    }
+  const handleSelectLang = (code: string) => {
     onLanguageChange(code);
     setLangMenuOpen(false);
   };
@@ -69,10 +59,10 @@ export const Header: React.FC<HeaderProps> = ({
         <div className="flex items-center space-x-3">
           <span className="flex items-center space-x-1.5 font-medium tracking-wide">
             <span className="w-2 h-2 rounded-full bg-orange-500 animate-pulse"></span>
-            <span>भारत सरकार | Government of India</span>
+            <span>{t.govIndia}</span>
           </span>
           <span className="hidden md:inline text-slate-400">|</span>
-          <span className="hidden md:inline text-slate-300 font-medium">जनजाति कार्य मंत्रालय | Ministry of Tribal Affairs (MoTA)</span>
+          <span className="hidden md:inline text-slate-300 font-medium">{t.mota}</span>
         </div>
 
         <div className="flex items-center space-x-3 mt-1 sm:mt-0">
@@ -83,14 +73,14 @@ export const Header: React.FC<HeaderProps> = ({
             title="Click to toggle judges demo control panel"
           >
             <Sparkles className="w-3 h-3 text-amber-400" />
-            <span>DEMO MODE</span>
+            <span>{t.demoMode}</span>
           </button>
 
           {/* Low Bandwidth Data Saver Indicator */}
           {dataSaver && (
             <span className="bg-emerald-900/60 text-emerald-300 px-2 py-0.5 rounded text-[10px] font-medium flex items-center space-x-1">
               <Zap className="w-2.5 h-2.5" />
-              <span>Data Saver ON</span>
+              <span>{t.dataSaverOn}</span>
             </span>
           )}
 
@@ -116,13 +106,11 @@ export const Header: React.FC<HeaderProps> = ({
                 Marg<span className="text-orange-600">Darshan</span>
               </span>
               <span className="text-[10px] font-semibold uppercase tracking-wider bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded">
-                Unified Portal
+                {t.unifiedPortal}
               </span>
             </div>
             <p className="text-xs text-slate-500 hidden sm:block">
-              {activeLanguage === 'hi' 
-                ? 'एक मंच। प्रत्येक छात्रवृत्ति यात्रा।'
-                : 'One student. One dashboard. One scholarship journey.'}
+              {t.tagline}
             </p>
           </div>
         </div>
@@ -134,24 +122,24 @@ export const Header: React.FC<HeaderProps> = ({
             <button
               onClick={() => setA11yMenuOpen(!a11yMenuOpen)}
               className="p-2 text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded-lg transition border border-slate-200 flex items-center space-x-1"
-              title="Accessibility & Display Settings"
-              aria-label="Accessibility options"
+              title={t.accessibility}
+              aria-label={t.accessibility}
             >
               <Eye className="w-4 h-4 text-blue-700" />
-              <span className="text-xs font-medium hidden md:inline">Accessibility</span>
+              <span className="text-xs font-medium hidden md:inline">{t.accessibility}</span>
             </button>
 
             {a11yMenuOpen && (
               <div className="absolute right-0 mt-2 w-64 bg-white rounded-xl shadow-xl border border-slate-200 py-3 px-4 z-50 animate-in fade-in slide-in-from-top-2 duration-150">
                 <div className="text-xs font-bold text-slate-800 uppercase tracking-wider mb-2 pb-1 border-b border-slate-100">
-                  Accessibility & UX Options
+                  {t.accessibility}
                 </div>
 
                 <div className="space-y-2.5 text-xs text-slate-700">
                   <label className="flex items-center justify-between cursor-pointer p-1 hover:bg-slate-50 rounded">
                     <div>
-                      <p className="font-semibold text-slate-900">Simple Mode</p>
-                      <p className="text-[11px] text-slate-500">Larger buttons & simplified copy</p>
+                      <p className="font-semibold text-slate-900">{t.simpleMode}</p>
+                      <p className="text-[11px] text-slate-500">{t.simpleModeDesc}</p>
                     </div>
                     <input
                       type="checkbox"
@@ -163,8 +151,8 @@ export const Header: React.FC<HeaderProps> = ({
 
                   <label className="flex items-center justify-between cursor-pointer p-1 hover:bg-slate-50 rounded">
                     <div>
-                      <p className="font-semibold text-slate-900">High Contrast</p>
-                      <p className="text-[11px] text-slate-500">Enhanced border visibility</p>
+                      <p className="font-semibold text-slate-900">{t.highContrast}</p>
+                      <p className="text-[11px] text-slate-500">{t.highContrastDesc}</p>
                     </div>
                     <input
                       type="checkbox"
@@ -176,8 +164,8 @@ export const Header: React.FC<HeaderProps> = ({
 
                   <label className="flex items-center justify-between cursor-pointer p-1 hover:bg-slate-50 rounded">
                     <div>
-                      <p className="font-semibold text-slate-900">Large Text</p>
-                      <p className="text-[11px] text-slate-500">Increase base text size (+15%)</p>
+                      <p className="font-semibold text-slate-900">{t.largeText}</p>
+                      <p className="text-[11px] text-slate-500">{t.largeTextDesc}</p>
                     </div>
                     <input
                       type="checkbox"
@@ -189,8 +177,8 @@ export const Header: React.FC<HeaderProps> = ({
 
                   <label className="flex items-center justify-between cursor-pointer p-1 hover:bg-slate-50 rounded">
                     <div>
-                      <p className="font-semibold text-slate-900">Low-Bandwidth Mode</p>
-                      <p className="text-[11px] text-slate-500">Disable animations, save mobile data</p>
+                      <p className="font-semibold text-slate-900">{t.lowBandwidth}</p>
+                      <p className="text-[11px] text-slate-500">{t.lowBandwidthDesc}</p>
                     </div>
                     <input
                       type="checkbox"
@@ -209,35 +197,31 @@ export const Header: React.FC<HeaderProps> = ({
             <button
               onClick={() => setLangMenuOpen(!langMenuOpen)}
               className="p-2 text-slate-700 hover:text-slate-900 hover:bg-slate-100 rounded-lg transition border border-slate-200 flex items-center space-x-1.5"
-              title="Select Language"
-              aria-label="Language selection"
+              title={t.supportedLanguages}
+              aria-label={t.supportedLanguages}
             >
               <Globe className="w-4 h-4 text-orange-600" />
               <span className="text-xs font-semibold">
-                {activeLanguage === 'hi' ? 'हिन्दी' : 'English'}
+                {currentLang.nativeName}
               </span>
               <ChevronDown className="w-3 h-3 text-slate-400" />
             </button>
 
             {langMenuOpen && (
-              <div className="absolute right-0 mt-2 w-48 bg-white rounded-xl shadow-xl border border-slate-200 py-2 z-50 animate-in fade-in duration-150">
+              <div className="absolute right-0 mt-2 w-52 bg-white rounded-xl shadow-xl border border-slate-200 py-2 z-50 animate-in fade-in duration-150">
                 <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider px-3 py-1">
-                  Supported Languages
+                  {t.supportedLanguages}
                 </div>
-                {languages.map((l) => (
+                {SUPPORTED_LANGUAGES.map((l) => (
                   <button
                     key={l.code}
-                    onClick={() => handleSelectLang(l.code, l.active)}
-                    className={`w-full text-left px-3 py-1.5 text-xs flex items-center justify-between hover:bg-slate-50 ${
-                      activeLanguage === l.code ? 'font-bold text-blue-700 bg-blue-50/50' : 'text-slate-700'
+                    onClick={() => handleSelectLang(l.code)}
+                    className={`w-full text-left px-3 py-2 text-xs flex items-center justify-between hover:bg-slate-50 transition-colors ${
+                      activeLanguage === l.code ? 'font-bold text-blue-700 bg-blue-50/70' : 'text-slate-700'
                     }`}
                   >
-                    <span>{l.name}</span>
-                    {l.active ? (
-                      activeLanguage === l.code && <CheckCircle className="w-3.5 h-3.5 text-blue-600" />
-                    ) : (
-                      <span className="text-[10px] bg-slate-100 text-slate-500 px-1 py-0.5 rounded">Soon</span>
-                    )}
+                    <span>{l.nativeName}</span>
+                    {activeLanguage === l.code && <CheckCircle className="w-3.5 h-3.5 text-blue-600" />}
                   </button>
                 ))}
               </div>

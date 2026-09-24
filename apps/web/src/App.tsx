@@ -23,6 +23,7 @@ import { GrievancesView } from './features/GrievancesView';
 
 import { User, StudentProfile, Application, Scheme, DocumentItem, PaymentItem, ReviewQueueItem, UnreachedBeneficiary, NotificationItem, GrievanceItem, DemoPersonaId } from './types';
 import { api, setAuthToken, clearAuthToken } from './services/api';
+import { getTranslation } from './utils/i18n';
 
 export const App: React.FC = () => {
   // Navigation & View States
@@ -39,6 +40,8 @@ export const App: React.FC = () => {
   const [highContrast, setHighContrast] = useState(false);
   const [largeText, setLargeText] = useState(false);
   const [dataSaver, setDataSaver] = useState(false);
+
+  const t = getTranslation(activeLanguage);
 
   // App Data States
   const [currentUser, setCurrentUser] = useState<User | null>(null);
@@ -209,7 +212,7 @@ export const App: React.FC = () => {
                   }`}
                 >
                   <Home className="w-4 h-4" />
-                  <span>Student Dashboard</span>
+                  <span>{t.studentDashboard}</span>
                 </button>
 
                 <button
@@ -219,7 +222,7 @@ export const App: React.FC = () => {
                   }`}
                 >
                   <FileText className="w-4 h-4" />
-                  <span>Apply Scholarship</span>
+                  <span>{t.applyScholarship}</span>
                 </button>
 
                 <button
@@ -229,7 +232,7 @@ export const App: React.FC = () => {
                   }`}
                 >
                   <FolderLock className="w-4 h-4" />
-                  <span>Document Wallet</span>
+                  <span>{t.documentWallet}</span>
                 </button>
 
                 <button
@@ -239,7 +242,7 @@ export const App: React.FC = () => {
                   }`}
                 >
                   <CreditCard className="w-4 h-4" />
-                  <span>DBT / Payments</span>
+                  <span>{t.payments}</span>
                 </button>
 
                 <button
@@ -249,7 +252,7 @@ export const App: React.FC = () => {
                   }`}
                 >
                   <Sparkles className="w-4 h-4 text-orange-500" />
-                  <span>Eligibility Checker</span>
+                  <span>{t.eligibilityChecker}</span>
                 </button>
 
                 <button
@@ -259,11 +262,11 @@ export const App: React.FC = () => {
                   }`}
                 >
                   <HelpCircle className="w-4 h-4" />
-                  <span>Grievances</span>
+                  <span>{t.grievances}</span>
                 </button>
 
                 <div className="pt-2 border-t border-slate-100 text-[11px] font-bold text-slate-400 uppercase tracking-wider px-3 py-1">
-                  Inclusivity Tools
+                  {t.inclusivityTools}
                 </div>
 
                 <button
@@ -273,7 +276,7 @@ export const App: React.FC = () => {
                   }`}
                 >
                   <Phone className="w-4 h-4 text-emerald-600" />
-                  <span>Missed-Call / SMS</span>
+                  <span>{t.missedCall}</span>
                 </button>
 
                 <button
@@ -283,7 +286,7 @@ export const App: React.FC = () => {
                   }`}
                 >
                   <School className="w-4 h-4 text-blue-600" />
-                  <span>Teacher Assisted</span>
+                  <span>{t.teacherAssisted}</span>
                 </button>
               </>
             )}
@@ -298,7 +301,7 @@ export const App: React.FC = () => {
                   }`}
                 >
                   <Users className="w-4 h-4" />
-                  <span>My Children</span>
+                  <span>{t.myChildren}</span>
                 </button>
                 <button
                   onClick={() => setActiveTab('payments')}
@@ -307,7 +310,7 @@ export const App: React.FC = () => {
                   }`}
                 >
                   <CreditCard className="w-4 h-4" />
-                  <span>Payment History</span>
+                  <span>{t.paymentHistory}</span>
                 </button>
               </>
             )}
@@ -322,7 +325,7 @@ export const App: React.FC = () => {
                   }`}
                 >
                   <UserCheck className="w-4 h-4" />
-                  <span>Verification Queue</span>
+                  <span>{t.verificationQueue}</span>
                 </button>
                 <button
                   onClick={() => setActiveTab('analytics')}
@@ -331,7 +334,7 @@ export const App: React.FC = () => {
                   }`}
                 >
                   <BarChart3 className="w-4 h-4" />
-                  <span>District Coverage</span>
+                  <span>{t.districtCoverage}</span>
                 </button>
               </>
             )}
@@ -346,7 +349,7 @@ export const App: React.FC = () => {
                   }`}
                 >
                   <BarChart3 className="w-4 h-4" />
-                  <span>National Analytics</span>
+                  <span>{t.nationalAnalytics}</span>
                 </button>
                 <button
                   onClick={() => setActiveTab('officer_queue')}
@@ -374,6 +377,7 @@ export const App: React.FC = () => {
               onOpenPayments={() => setActiveTab('payments')}
               onAskSaathi={handleTriggerSaathi}
               simpleMode={simpleMode}
+              activeLanguage={activeLanguage}
             />
           )}
 
@@ -470,7 +474,7 @@ export const App: React.FC = () => {
         title="Open SAATHI AI Scholarship Companion"
       >
         <img src="/logo.png" alt="SAATHI" className="w-5 h-5 rounded-full object-cover bg-white p-0.5" />
-        <span className="tracking-wide">Ask SAATHI AI</span>
+        <span className="tracking-wide">{t.askSaathi}</span>
       </button>
 
       {/* Mobile Bottom Navigation (Section 94) */}
@@ -480,21 +484,21 @@ export const App: React.FC = () => {
           className={`flex flex-col items-center py-1 ${activeTab === 'home' ? 'text-blue-700 font-bold' : ''}`}
         >
           <Home className="w-4 h-4 mb-0.5" />
-          <span>Home</span>
+          <span>{t.home}</span>
         </button>
         <button
           onClick={() => setActiveTab('apply')}
           className={`flex flex-col items-center py-1 ${activeTab === 'apply' ? 'text-blue-700 font-bold' : ''}`}
         >
           <FileText className="w-4 h-4 mb-0.5" />
-          <span>Scholarships</span>
+          <span>{t.apply}</span>
         </button>
         <button
           onClick={() => setActiveTab('documents')}
           className={`flex flex-col items-center py-1 ${activeTab === 'documents' ? 'text-blue-700 font-bold' : ''}`}
         >
           <FolderLock className="w-4 h-4 mb-0.5" />
-          <span>Documents</span>
+          <span>{t.wallet}</span>
         </button>
         <button
           onClick={() => handleTriggerSaathi()}
@@ -522,6 +526,7 @@ export const App: React.FC = () => {
         onOpenGrievance={() => setActiveTab('grievances')}
         onCheckEligibility={() => setActiveTab('eligibility')}
         initialPrompt={saathiPrompt}
+        language={activeLanguage}
       />
 
       <DemoControlPanel

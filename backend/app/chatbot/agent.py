@@ -25,7 +25,16 @@ Core Groundrules:
 """
 
 def detect_language(text: str) -> str:
-    # Check for Devanagari script range
+    # Bengali script range
+    if any('\u0980' <= char <= '\u09FF' for char in text):
+        return "bn"
+    # Tamil script range
+    if any('\u0B80' <= char <= '\u0BFF' for char in text):
+        return "ta"
+    # Ol Chiki (Santali) range
+    if any('\u1C50' <= char <= '\u1C7F' for char in text):
+        return "santali"
+    # Devanagari script range (Hindi, Gondi, Bhili, etc.)
     if any('\u0900' <= char <= '\u097F' for char in text):
         return "hi"
     return "en"
@@ -40,7 +49,16 @@ def call_groq_api(system_prompt: str, user_message: str, context: str, language:
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json"
         }
-        lang_note = "Respond in Hindi (Devanagari script)." if language == "hi" else "Respond in clear English."
+        if language == "hi":
+            lang_note = "Respond in natural, polite Hindi (Devanagari script)."
+        elif language == "bn":
+            lang_note = "Respond in natural, polite Bengali (বাংলা script)."
+        elif language == "ta":
+            lang_note = "Respond in natural, polite Tamil (தமிழ் script)."
+        elif language == "santali":
+            lang_note = "Respond in Santali or clear accessible language."
+        else:
+            lang_note = "Respond in clear English."
         
         messages = [
             {
@@ -86,7 +104,16 @@ def process_saathi_chat(
     is_personal_query = any(k in msg_lower for k in personal_keywords)
     
     if is_personal_query and not user:
-        if detected_lang == "hi":
+        if detected_lang == "bn":
+            return {
+                "response": "আপনার স্কলারশিপ এবং আবেদনের তথ্য নিরাপদে দেখতে অনুগ্রহ করে প্রথমে সাইন ইন করুন।",
+                "language": "bn",
+                "tools_called": ["auth_guardrail"],
+                "citations": [],
+                "action_buttons": [{"label": "সাইন ইন করুন (Login)", "action": "LOGIN"}],
+                "fallback_mode": False
+            }
+        elif detected_lang == "hi":
             return {
                 "response": "कृपया पहले साइन इन करें ताकि मैं आपकी छात्रवृत्ति और आवेदन की जानकारी सुरक्षित रूप से देख सकूँ।",
                 "language": "hi",
@@ -182,6 +209,31 @@ def process_saathi_chat(
                     {"label": "आवेदन देखें (View App)", "action": "VIEW_APPLICATION"},
                     {"label": "भुगतान समयरेखा (Payment Timeline)", "action": "VIEW_PAYMENT"},
                     {"label": "शिकायत दर्ज करें (Raise Grievance)", "action": "RAISE_GRIEVANCE"}
+                ],
+                "fallback_mode": True
+            }
+
+    # Bengali Query: Payment status / pending reason ("আমার স্কলারশিপ পেমেন্ট কেন বাকি?")
+    if any(k in msg_clean for k in ["পেমেন্ট", "টাকা", "স্কলারশিপ", "বিলম্বিত", "বাকি", "আবেদন"]):
+        if student_id and student:
+            app_info = tools.get_application_status(db, student_id)
+            reply = (
+                f"নমস্কার {student.name}! আপনার {app_info.get('scheme_name', 'পোস্ট-ম্যাট্রিক স্কলারশিপ')} আবেদনটি 'মঞ্জুরীকৃত' (Sanctioned) হয়েছে, "
+                f"কিন্তু বর্তমানে ডিবিটি (DBT) প্রক্রিয়াকরণের অপেক্ষায় রয়েছে।\n\n"
+                f"• সর্বশেষ স্থিতি আপডেট: ১৮ সেপ্টেম্বর ২০২৬\n"
+                f"• ব্যাংক অ্যাকাউন্ট: আধার সংযুক্ত ও সক্রিয় (Aadhaar Seeded)\n"
+                f"• আনুমানিক বিতরণ: আগামী ৩-৫ কার্যদিবসের মধ্যে\n\n"
+                f"যদি আপনার আরো কোনো সাহায্যের প্রয়োজন হয়, তবে সরাসরি অভিযোগ জানাতে পারেন।"
+            )
+            return {
+                "response": reply,
+                "language": "bn",
+                "tools_called": ["get_payment_history", "get_application_status"],
+                "citations": [{"source": "DBT PFMS Gateway", "type": "Synthetic Records"}],
+                "action_buttons": [
+                    {"label": "আবেদন দেখুন", "action": "VIEW_APPLICATION"},
+                    {"label": "পেমেন্ট টাইমলাইন", "action": "VIEW_PAYMENT"},
+                    {"label": "অভিযোগ জানান", "action": "RAISE_GRIEVANCE"}
                 ],
                 "fallback_mode": True
             }

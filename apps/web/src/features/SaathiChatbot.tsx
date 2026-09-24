@@ -4,6 +4,7 @@ import {
   Sparkles, ExternalLink, HelpCircle, CheckCircle2, AlertTriangle, ArrowRight
 } from 'lucide-react';
 import { api } from '../services/api';
+import { SUPPORTED_LANGUAGES, getTranslation } from '../utils/i18n';
 
 interface SaathiChatbotProps {
   isOpen: boolean;
@@ -14,6 +15,7 @@ interface SaathiChatbotProps {
   onOpenGrievance: () => void;
   onCheckEligibility: () => void;
   initialPrompt?: string;
+  language?: string;
 }
 
 interface Message {
@@ -36,19 +38,17 @@ export const SaathiChatbot: React.FC<SaathiChatbotProps> = ({
   onOpenGrievance,
   onCheckEligibility,
   initialPrompt,
+  language = 'en',
 }) => {
+  const t = getTranslation(language);
+
   const [messages, setMessages] = useState<Message[]>([
     {
       id: 'm1',
       sender: 'saathi',
-      text: "Namaste! I am **SAATHI**, your scholarship assistance companion for Ministry of Tribal Affairs (MoTA) schemes.\n\nHow can I guide your scholarship journey today?",
-      language: 'en',
-      actionButtons: [
-        { label: "Why is my payment pending?", action: "PAYMENT_QUERY" },
-        { label: "Application Status", action: "APP_STATUS" },
-        { label: "Which scholarship can I apply for?", action: "CHECK_ELIGIBILITY" },
-        { label: "मेरी छात्रवृत्ति का भुगतान (Hindi)", action: "HINDI_QUERY" }
-      ],
+      text: t.saathiGreeting,
+      language: language,
+      actionButtons: t.saathiQuickActions,
       timestamp: "Just now"
     }
   ]);
@@ -60,6 +60,19 @@ export const SaathiChatbot: React.FC<SaathiChatbotProps> = ({
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
+
+  useEffect(() => {
+    setMessages([
+      {
+        id: 'm1',
+        sender: 'saathi',
+        text: t.saathiGreeting,
+        language: language,
+        actionButtons: t.saathiQuickActions,
+        timestamp: "Just now"
+      }
+    ]);
+  }, [language]);
 
   useEffect(() => {
     if (isOpen) {
@@ -90,7 +103,7 @@ export const SaathiChatbot: React.FC<SaathiChatbotProps> = ({
     setIsTyping(true);
 
     try {
-      const res = await api.sendChatMessage(text);
+      const res = await api.sendChatMessage(text, language);
       const saathiMsg: Message = {
         id: String(Date.now() + 1),
         sender: 'saathi',
@@ -103,10 +116,11 @@ export const SaathiChatbot: React.FC<SaathiChatbotProps> = ({
       };
       setMessages(prev => [...prev, saathiMsg]);
 
-      // Voice read aloud if Hindi or requested
-      if (window.speechSynthesis && res.language === 'hi') {
+      // Voice read aloud in supported language
+      const langOption = SUPPORTED_LANGUAGES.find(l => l.code === (res.language || language));
+      if (window.speechSynthesis && langOption) {
         const utter = new SpeechSynthesisUtterance(res.response.replace(/[#*]/g, ''));
-        utter.lang = 'hi-IN';
+        utter.lang = langOption.speechCode;
         window.speechSynthesis.speak(utter);
       }
     } catch (err: any) {
@@ -115,7 +129,11 @@ export const SaathiChatbot: React.FC<SaathiChatbotProps> = ({
         {
           id: String(Date.now() + 1),
           sender: 'saathi',
-          text: "I am having temporary trouble connecting to the verification network. Please check the official scholarship guidelines or ask again shortly.",
+          text: language === 'bn'
+            ? "যাচাইকরণ নেটওয়ার্কে সংযোগ করতে সাময়িক সমস্যা হচ্ছে। অনুগ্রহ করে একটু পরে আবার চেষ্টা করুন।"
+            : language === 'hi'
+            ? "सत्यापन नेटवर्क से जुड़ने में समस्या आ रही है। कृपया कुछ समय बाद पुनः प्रयास करें।"
+            : "I am having temporary trouble connecting to the verification network. Please check the official scholarship guidelines or ask again shortly.",
           timestamp: "Just now"
         }
       ]);
@@ -149,10 +167,21 @@ export const SaathiChatbot: React.FC<SaathiChatbotProps> = ({
         onClose();
         break;
       case 'PAYMENT_QUERY':
-        handleSendMessage("Why is my scholarship payment pending?");
+        if (language === 'bn') handleSendMessage("আমার স্কলারশিপ পেমেন্ট কেন বাকি?");
+        else if (language === 'hi') handleSendMessage("मेरी छात्रवृत्ति का भुगतान अभी तक क्यों नहीं आया?");
+        else if (language === 'ta') handleSendMessage("என் உதவித்தொகை பணம் ஏன் நிலுவையில் உள்ளது?");
+        else handleSendMessage("Why is my scholarship payment pending?");
         break;
       case 'APP_STATUS':
-        handleSendMessage("What is my scholarship application status?");
+        if (language === 'bn') handleSendMessage("আমার স্কলারশিপ আবেদনের বর্তমান স্থিতি কী?");
+        else if (language === 'hi') handleSendMessage("मेरे छात्रवृत्ति आवेदन की स्थिति क्या है?");
+        else if (language === 'ta') handleSendMessage("எனது விண்ணப்பத்தின் நிலை என்ன?");
+        else handleSendMessage("What is my scholarship application status?");
+        break;
+      case 'DOC_QUERY':
+        if (language === 'bn') handleSendMessage("আমার নথিপত্র এবং ডিজিলকার যাচাইকরণ স্থিতি কী?");
+        else if (language === 'hi') handleSendMessage("मेरे दस्तावेज़ सत्यापन की स्थिति क्या है?");
+        else handleSendMessage("What is the status of my document verification?");
         break;
       case 'HINDI_QUERY':
         handleSendMessage("मेरी छात्रवृत्ति का भुगतान अभी तक क्यों नहीं आया?");
@@ -165,19 +194,26 @@ export const SaathiChatbot: React.FC<SaathiChatbotProps> = ({
 
   // Section 35: Voice Input Simulation & Web Speech API
   const handleToggleVoice = () => {
+    const langOption = SUPPORTED_LANGUAGES.find(l => l.code === language);
     if (!('webkitSpeechRecognition' in window) && !('SpeechRecognition' in window)) {
       // Mock voice simulation
       setIsListening(true);
       setTimeout(() => {
         setIsListening(false);
-        handleSendMessage("मेरी छात्रवृत्ति का भुगतान अभी तक क्यों नहीं आया?");
+        if (language === 'bn') {
+          handleSendMessage("আমার স্কলারশিপ পেমেন্ট কেন বাকি?");
+        } else if (language === 'hi') {
+          handleSendMessage("मेरी छात्रवृत्ति का भुगतान अभी तक क्यों नहीं आया?");
+        } else {
+          handleSendMessage("Why is my scholarship payment pending?");
+        }
       }, 1500);
       return;
     }
 
     const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
     const recognition = new SpeechRecognition();
-    recognition.lang = 'hi-IN';
+    recognition.lang = langOption?.speechCode || 'en-IN';
     recognition.interimResults = false;
 
     setIsListening(true);
@@ -299,7 +335,7 @@ export const SaathiChatbot: React.FC<SaathiChatbotProps> = ({
       {isListening && (
         <div className="bg-orange-50 border-t border-orange-200 p-2 text-center text-xs text-orange-800 font-semibold flex items-center justify-center space-x-2 animate-pulse">
           <Mic className="w-4 h-4 text-orange-600" />
-          <span>Listening... बोलिए (हिंदी या English)</span>
+          <span>Listening... ({language === 'bn' ? 'বলুন...' : language === 'hi' ? 'बोलिए...' : 'Speak now...'})</span>
         </div>
       )}
 
@@ -330,7 +366,7 @@ export const SaathiChatbot: React.FC<SaathiChatbotProps> = ({
             type="text"
             value={inputMessage}
             onChange={(e) => setInputMessage(e.target.value)}
-            placeholder="Ask SAATHI in English or हिन्दी..."
+            placeholder={t.saathiPlaceholder}
             className="flex-1 text-xs border border-slate-300 rounded-xl px-3.5 py-2.5 focus:ring-2 focus:ring-blue-500"
           />
 

@@ -4,6 +4,7 @@ import {
   FileText, ExternalLink, Zap, HelpCircle, ChevronRight, Sparkles, Building, Award
 } from 'lucide-react';
 import { StudentProfile, Application, Scheme } from '../types';
+import { getTranslation } from '../utils/i18n';
 
 interface StudentDashboardProps {
   student: StudentProfile | null;
@@ -14,6 +15,7 @@ interface StudentDashboardProps {
   onOpenPayments: () => void;
   onAskSaathi: (prompt?: string) => void;
   simpleMode: boolean;
+  activeLanguage?: string;
 }
 
 export const StudentDashboard: React.FC<StudentDashboardProps> = ({
@@ -25,7 +27,9 @@ export const StudentDashboard: React.FC<StudentDashboardProps> = ({
   onOpenPayments,
   onAskSaathi,
   simpleMode,
+  activeLanguage = 'en',
 }) => {
+  const t = getTranslation(activeLanguage);
   const currentApp = applications.length > 0 ? applications[0] : null;
 
   // Determine health score and pending action state
@@ -43,7 +47,7 @@ export const StudentDashboard: React.FC<StudentDashboardProps> = ({
               <span>Ministry of Tribal Affairs | ST Welfare Portal</span>
             </span>
             <h1 className={`${simpleMode ? 'text-3xl' : 'text-2xl sm:text-3xl'} font-extrabold tracking-tight`}>
-              Good morning, {student?.name || 'Rahul'} 👋
+              {t.goodMorning}, {student?.name || 'Rahul'} 👋
             </h1>
             <p className="text-sm text-slate-300 mt-1 max-w-xl">
               APAAR ID: <span className="font-mono text-orange-300">{student?.apaar_id || 'APAAR-2026-DEMO-001'}</span> | {student?.district || 'Mayurbhanj'}, {student?.state || 'Odisha'}
@@ -53,7 +57,7 @@ export const StudentDashboard: React.FC<StudentDashboardProps> = ({
           {/* Quick Stats or Health Badge */}
           <div className="flex items-center space-x-3 bg-white/10 backdrop-blur-md px-4 py-3 rounded-xl border border-white/15">
             <div>
-              <p className="text-xs text-slate-300 font-medium">Scholarship Health</p>
+              <p className="text-xs text-slate-300 font-medium">{t.scholarshipHealth}</p>
               <p className="text-2xl font-black text-emerald-400">{healthScore}/100</p>
             </div>
             <div className="w-10 h-10 rounded-full border-2 border-emerald-400 flex items-center justify-center bg-emerald-500/20 text-xs font-bold text-emerald-300">
