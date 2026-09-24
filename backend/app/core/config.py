@@ -15,7 +15,9 @@ class Settings(BaseSettings):
     REDIS_URL: Optional[str] = os.getenv("REDIS_URL", "redis://localhost:6379/0")
     
     # AI Config
-    AI_PROVIDER: str = os.getenv("AI_PROVIDER", "mock")  # mock, gemini, openai, openrouter
+    AI_PROVIDER: str = os.getenv("AI_PROVIDER", "groq")  # groq, mock, gemini, openai, openrouter
+    GROQ_API_KEY: Optional[str] = os.getenv("GROQ_API_KEY", "")
+    GROQ_MODEL: str = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
     OPENAI_API_KEY: Optional[str] = os.getenv("OPENAI_API_KEY", "")
     OPENROUTER_API_KEY: Optional[str] = os.getenv("OPENROUTER_API_KEY", "")
     GEMINI_API_KEY: Optional[str] = os.getenv("GEMINI_API_KEY", "")

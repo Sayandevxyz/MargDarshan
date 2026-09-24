@@ -1,34 +1,72 @@
 import re
 import os
+import requests
 from typing import Dict, Any, List, Optional
 from sqlalchemy.orm import Session
 
+from backend.app.core.config import settings
 from backend.app.chatbot import tools
 from backend.app.models.models import Student, User, Application
 
 SAATHI_SYSTEM_PROMPT = """
-You are SAATHI, the scholarship assistance companion inside MargDarshan.
-Your purpose is to help students understand and navigate scholarship services.
-You must:
-1. Answer using verified retrieved information.
-2. Use tools for student-specific information.
-3. Never invent application status.
-4. Never invent payment status.
-5. Never invent eligibility criteria.
-6. Never expose another user's information.
-7. Require authentication before accessing personal information.
-8. Explain deficiencies in simple language.
-9. Provide actionable next steps.
-10. Clearly distinguish prototype/mock information.
-11. Escalate uncertain questions to official support.
-12. Never make final government decisions.
+You are SAATHI, the scholarship assistance companion inside MargDarshan, built for the Ministry of Tribal Affairs (MoTA).
+Your purpose is to help Scheduled Tribe (ST) students and parents understand and navigate scholarship schemes, verification, documents, and DBT payments.
+
+Core Groundrules:
+1. Ground your answers ONLY in the retrieved verified context and official guidelines.
+2. Never invent scholarship rules, amounts, or payment dates.
+3. If an application is flagged or has a deficiency, explain:
+   - What happened?
+   - Why it matters?
+   - What the student can do to fix it?
+4. Clearly distinguish prototype/mock information.
+5. If responding in Hindi, use polite, natural, and accessible Devanagari Hindi.
+6. Keep answers concise, clear, and reassuring.
 """
 
 def detect_language(text: str) -> str:
-    # Basic check for Devanagari script range
+    # Check for Devanagari script range
     if any('\u0900' <= char <= '\u097F' for char in text):
         return "hi"
     return "en"
+
+def call_groq_api(system_prompt: str, user_message: str, context: str, language: str) -> Optional[str]:
+    api_key = settings.GROQ_API_KEY
+    if not api_key:
+        return None
+    try:
+        url = "https://api.groq.com/openai/v1/chat/completions"
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json"
+        }
+        lang_note = "Respond in Hindi (Devanagari script)." if language == "hi" else "Respond in clear English."
+        
+        messages = [
+            {
+                "role": "system",
+                "content": f"{system_prompt}\n\n[Retrieved Verified Student & Scheme Context]:\n{context}\n\n[Language Instruction]: {lang_note}"
+            },
+            {
+                "role": "user",
+                "content": user_message
+            }
+        ]
+        
+        payload = {
+            "model": settings.GROQ_MODEL,
+            "messages": messages,
+            "temperature": 0.3,
+            "max_tokens": 1024
+        }
+        
+        res = requests.post(url, json=payload, headers=headers, timeout=12)
+        if res.status_code == 200:
+            data = res.json()
+            return data["choices"][0]["message"]["content"]
+    except Exception as e:
+        print(f"Groq API call notice: {e}")
+    return None
 
 def process_saathi_chat(
     db: Session,
@@ -69,23 +107,69 @@ def process_saathi_chat(
     # If user is authenticated, retrieve student record if applicable
     student = None
     student_id = None
+    context_parts = []
+    
     if user and user.role == "STUDENT":
         student = db.query(Student).filter(Student.user_id == user.id).first()
         if student:
             student_id = student.id
-
-    # 2. Hindi Query Handling (e.g. Persona 5: "मेरी छात्रवृत्ति का भुगतान अभी तक क्यों नहीं आया?")
-    if "भुगतान" in msg_clean or "पैसा" in msg_clean or "रुपया" in msg_clean or "छात्रवृत्ति" in msg_clean and "क्यों" in msg_clean:
-        if student_id:
-            payment_info = tools.get_payment_history(db, student_id)
             app_info = tools.get_application_status(db, student_id)
+            pay_info = tools.get_payment_history(db, student_id)
+            def_info = tools.list_deficiencies(db, student_id)
             
-            # Formulate response according to Section 54 Persona 5
+            context_parts.append(f"Student: {student.name}, APAAR: {student.apaar_id}, District: {student.district}, State: {student.state}")
+            context_parts.append(f"Active Application: {app_info}")
+            context_parts.append(f"Payment Record: {pay_info}")
+            if def_info:
+                context_parts.append(f"Active Deficiencies: {def_info}")
+    
+    # 2. Try Groq API Inference if configured
+    if settings.GROQ_API_KEY:
+        context_str = "\n".join(context_parts) if context_parts else "No specific personal application selected. General MoTA guidelines apply."
+        groq_reply = call_groq_api(SAATHI_SYSTEM_PROMPT, msg_clean, context_str, detected_lang)
+        if groq_reply:
+            # Determine appropriate action buttons
+            action_buttons = []
+            if any(k in msg_lower for k in ["payment", "bhugtan", "money", "rupee", "dbt"]):
+                action_buttons = [
+                    {"label": "View Payment Timeline", "action": "VIEW_PAYMENT"},
+                    {"label": "Raise Grievance", "action": "RAISE_GRIEVANCE"}
+                ]
+            elif any(k in msg_lower for k in ["application", "status", "track"]):
+                action_buttons = [
+                    {"label": "View Application", "action": "VIEW_APPLICATION"},
+                    {"label": "Document Wallet", "action": "VIEW_DOCUMENTS"}
+                ]
+            elif any(k in msg_lower for k in ["scheme", "eligibility", "apply"]):
+                action_buttons = [
+                    {"label": "Check Eligibility", "action": "CHECK_ELIGIBILITY"},
+                    {"label": "Explore Schemes", "action": "EXPLORE_SCHEMES"}
+                ]
+            else:
+                action_buttons = [
+                    {"label": "Check Application Status", "action": "VIEW_APPLICATION"},
+                    {"label": "Ask about Payments", "action": "PAYMENT_QUERY"}
+                ]
+            
+            return {
+                "response": groq_reply,
+                "language": detected_lang,
+                "tools_called": ["groq_llm_inference", "get_application_status", "get_payment_history"],
+                "citations": [{"source": f"Groq Cloud AI ({settings.GROQ_MODEL})", "type": "Live LLM Engine"}],
+                "action_buttons": action_buttons,
+                "fallback_mode": False
+            }
+
+    # 3. Deterministic Fallback Mode (Section 89)
+    # Persona 5: Hindi Query Handling ("मेरी छात्रवृत्ति का भुगतान अभी तक क्यों नहीं आया?")
+    if "भुगतान" in msg_clean or "पैसा" in msg_clean or "रुपया" in msg_clean or ("छात्रवृत्ति" in msg_clean and "क्यों" in msg_clean):
+        if student_id and student:
+            app_info = tools.get_application_status(db, student_id)
             reply = (
                 f"नमस्ते {student.name}! आपके {app_info.get('scheme_name', 'पोस्ट-मैट्रिक छात्रवृत्ति')} आवेदन की स्थिति 'स्वीकृत' (Sanctioned) है, "
                 f"लेकिन भुगतान वर्तमान में डीबीटी (DBT) प्रसंस्करण की प्रतीक्षा में है।\n\n"
                 f"• नवीनतम स्थिति अद्यतन: 18 सितंबर 2026\n"
-                f"• बैंक खाता: सुरक्षित रूप से आधार से जुड़ा हुआ है\n"
+                f"• बैंक खाता: सुरक्षित रूप से आधार से जुड़ा हुआ है (Aadhaar Seeded)\n"
                 f"• अनुमानित संवितरण: अगले 3-5 कार्य दिवस\n\n"
                 f"यदि आपको अधिक सहायता चाहिए, तो आप सीधे शिकायत दर्ज कर सकते हैं।"
             )
@@ -102,12 +186,10 @@ def process_saathi_chat(
                 "fallback_mode": True
             }
 
-    # 3. English Query: Payment status / pending reason
+    # English Query: Payment status / pending reason
     if any(k in msg_lower for k in ["payment pending", "scholarship payment", "where is my money", "when will i receive payment", "payment status"]):
         if student_id:
-            payment_data = tools.get_payment_history(db, student_id)
             app_data = tools.get_application_status(db, student_id)
-            
             reply = (
                 f"Your {app_data.get('scheme_name', 'Post-Matric Scholarship')} application has been sanctioned, "
                 f"but the payment is currently awaiting DBT processing. The latest status was updated on 18 September 2026."
@@ -125,7 +207,7 @@ def process_saathi_chat(
                 "fallback_mode": True
             }
 
-    # 4. English Query: Application Status & Timeline
+    # English Query: Application Status & Timeline
     if any(k in msg_lower for k in ["application status", "my status", "track application", "where is my application"]):
         if student_id:
             app_status = tools.get_application_status(db, student_id)
@@ -157,7 +239,7 @@ def process_saathi_chat(
                 "fallback_mode": True
             }
 
-    # 5. English Query: Deficiencies / Problems (Section 88 Format)
+    # English Query: Deficiencies / Problems (Section 88 Format)
     if any(k in msg_lower for k in ["deficiency", "problem", "wrong", "rejected", "income certificate expired", "what happened"]):
         if student_id:
             defs = tools.list_deficiencies(db, student_id)
@@ -185,7 +267,7 @@ def process_saathi_chat(
                     "fallback_mode": True
                 }
 
-    # 6. General Scheme Information & Eligibility Questions
+    # Scheme Information
     if any(k in msg_lower for k in ["pre-matric", "pre matric", "class 9", "class 10"]):
         info = tools.get_scheme_information(db, "PRE_MATRIC")
         reply = (
@@ -220,73 +302,7 @@ def process_saathi_chat(
             "fallback_mode": True
         }
 
-    if any(k in msg_lower for k in ["top class", "iit", "iim", "nit", "premier"]):
-        info = tools.get_scheme_information(db, "TOP_CLASS")
-        reply = (
-            f"**{info.get('name', 'Top Class Education')}** covers ST students studying in notified premier institutes like IITs, NITs, and IIMs.\n\n"
-            f"• **Income Ceiling:** Up to ₹6,00,000/- per annum\n"
-            f"• **Benefits:** Full tuition fee, ₹3,000/mo living expense, ₹5,000/yr book grant, ₹45,000 one-time computer grant."
-        )
-        return {
-            "response": reply,
-            "language": "en",
-            "tools_called": ["get_scheme_information"],
-            "citations": [{"source": "official_guideline (2026)", "section": "Top Class Education Guidelines"}],
-            "action_buttons": [{"label": "Check Eligibility", "action": "CHECK_ELIGIBILITY"}],
-            "fallback_mode": True
-        }
-
-    if any(k in msg_lower for k in ["nfst", "fellowship", "phd", "m.phil", "net", "jrf"]):
-        info = tools.get_scheme_information(db, "NFST")
-        reply = (
-            f"**{info.get('name', 'National Fellowship for ST Students')}** supports ST scholars pursuing regular M.Phil. and Ph.D. degrees.\n\n"
-            f"• **Fellowship:** ₹37,000/mo for JRF, ₹42,000/mo for SRF + Contingency & HRA\n"
-            f"• **Income Limit:** No family income ceiling"
-        )
-        return {
-            "response": reply,
-            "language": "en",
-            "tools_called": ["get_scheme_information"],
-            "citations": [{"source": "official_guideline (2026)", "section": "NFST Guidelines"}],
-            "action_buttons": [{"label": "Check Eligibility", "action": "CHECK_ELIGIBILITY"}],
-            "fallback_mode": True
-        }
-
-    if any(k in msg_lower for k in ["nos", "overseas", "abroad", "foreign"]):
-        info = tools.get_scheme_information(db, "NOS")
-        reply = (
-            f"**{info.get('name', 'National Overseas Scholarship')}** provides funding for Master's and Ph.D. abroad in top 500 QS ranked institutions.\n\n"
-            f"• **Income Ceiling:** Up to ₹8,00,000/- per annum\n"
-            f"• **Benefits:** Full tuition fee + annual maintenance allowance + airfare + visa fees."
-        )
-        return {
-            "response": reply,
-            "language": "en",
-            "tools_called": ["get_scheme_information"],
-            "citations": [{"source": "official_guideline (2026)", "section": "NOS Guidelines"}],
-            "action_buttons": [{"label": "Check Eligibility", "action": "CHECK_ELIGIBILITY"}],
-            "fallback_mode": True
-        }
-
-    # 7. Grievance inquiry
-    if any(k in msg_lower for k in ["grievance", "complaint", "helpdesk", "officer contact"]):
-        reply = (
-            "I can assist you in filing a formal grievance directly with the District Welfare Officer.\n\n"
-            "Would you like to register a ticket for:\n"
-            "1. Payment delay\n"
-            "2. Verification pending beyond SLA\n"
-            "3. Document mismatch or rejection"
-        )
-        return {
-            "response": reply,
-            "language": "en",
-            "tools_called": ["create_grievance"],
-            "citations": [{"source": "Grievance Redressal Guidance"}],
-            "action_buttons": [{"label": "File Grievance", "action": "RAISE_GRIEVANCE"}],
-            "fallback_mode": True
-        }
-
-    # Default friendly government assistant guidance
+    # Default friendly guidance
     default_text = (
         "Hello! I am **SAATHI**, your scholarship assistance companion for Ministry of Tribal Affairs (MoTA) schemes.\n\n"
         "I can help you with:\n"
