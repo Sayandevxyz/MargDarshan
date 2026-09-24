@@ -1,0 +1,3152 @@
+[
+  {
+    "apaar_id": "APAAR-2026-SYN-0010",
+    "name": "Amit Besra",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00010",
+    "status": "SUBMITTED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0011",
+    "name": "Suresh Kisku",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00011",
+    "status": "SUBMITTED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0012",
+    "name": "Mangal Murmu",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00012",
+    "status": "SUBMITTED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0013",
+    "name": "Lakshmi Kumar",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00013",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0014",
+    "name": "Arjun Besra",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00014",
+    "status": "SUBMITTED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0015",
+    "name": "Mangal Hembram",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00015",
+    "status": "SANCTIONED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0016",
+    "name": "Sunita Baski",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00016",
+    "status": "SANCTIONED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0017",
+    "name": "Karan Hembram",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00017",
+    "status": "SANCTIONED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0018",
+    "name": "Mangal Baski",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00018",
+    "status": "VERIFIED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0019",
+    "name": "Arjun Soren",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00019",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0020",
+    "name": "Kavita Tudu",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00020",
+    "status": "SANCTIONED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0021",
+    "name": "Ravi Munda",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00021",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0022",
+    "name": "Lakshmi Besra",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00022",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0023",
+    "name": "Kavita Baski",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00023",
+    "status": "UNDER_REVIEW",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0024",
+    "name": "Anita Tudu",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00024",
+    "status": "VERIFIED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0025",
+    "name": "Dev Hembram",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00025",
+    "status": "UNDER_REVIEW",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0026",
+    "name": "Ravi Kumar",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00026",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0027",
+    "name": "Pooja Baski",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00027",
+    "status": "VERIFIED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0028",
+    "name": "Dev Marandi",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00028",
+    "status": "VERIFIED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0029",
+    "name": "Kavita Munda",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00029",
+    "status": "SUBMITTED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0030",
+    "name": "Arjun Marandi",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00030",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0031",
+    "name": "Mangal Munda",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00031",
+    "status": "UNDER_REVIEW",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0032",
+    "name": "Rupa Munda",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00032",
+    "status": "UNDER_REVIEW",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0033",
+    "name": "Rupa Tudu",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00033",
+    "status": "SANCTIONED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0034",
+    "name": "Ravi Kisku",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00034",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0035",
+    "name": "Shanti Besra",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00035",
+    "status": "DISBURSED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0036",
+    "name": "Pooja Kisku",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00036",
+    "status": "SUBMITTED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0037",
+    "name": "Sunita Soren",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00037",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0038",
+    "name": "Sunita Soren",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00038",
+    "status": "SANCTIONED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0039",
+    "name": "Arjun Kisku",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00039",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0040",
+    "name": "Lakshmi Besra",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00040",
+    "status": "DISBURSED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0041",
+    "name": "Meena Besra",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00041",
+    "status": "VERIFIED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0042",
+    "name": "Pooja Baski",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00042",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0043",
+    "name": "Amit Kisku",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00043",
+    "status": "VERIFIED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0044",
+    "name": "Rupa Hembram",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00044",
+    "status": "UNDER_REVIEW",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0045",
+    "name": "Suresh Kumar",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00045",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0046",
+    "name": "Sunita Baski",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00046",
+    "status": "SANCTIONED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0047",
+    "name": "Ramesh Marandi",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00047",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0048",
+    "name": "Kavita Kisku",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00048",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0049",
+    "name": "Meena Hembram",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00049",
+    "status": "ACTION_REQUIRED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0050",
+    "name": "Karan Murmu",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00050",
+    "status": "SUBMITTED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0051",
+    "name": "Lakshmi Munda",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00051",
+    "status": "SANCTIONED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0052",
+    "name": "Rupa Hembram",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00052",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0053",
+    "name": "Lakshmi Murmu",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00053",
+    "status": "SANCTIONED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0054",
+    "name": "Ramesh Hembram",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00054",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0055",
+    "name": "Meena Murmu",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00055",
+    "status": "UNDER_REVIEW",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0056",
+    "name": "Mangal Besra",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00056",
+    "status": "SANCTIONED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0057",
+    "name": "Sarita Baski",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00057",
+    "status": "DISBURSED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0058",
+    "name": "Ramesh Tudu",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00058",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0059",
+    "name": "Anita Kumar",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00059",
+    "status": "ACTION_REQUIRED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0060",
+    "name": "Sunil Marandi",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00060",
+    "status": "VERIFIED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0061",
+    "name": "Ramesh Tudu",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00061",
+    "status": "DISBURSED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0062",
+    "name": "Arjun Hembram",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00062",
+    "status": "VERIFIED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0063",
+    "name": "Sunil Soren",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00063",
+    "status": "VERIFIED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0064",
+    "name": "Rupa Besra",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00064",
+    "status": "VERIFIED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0065",
+    "name": "Meena Munda",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00065",
+    "status": "DISBURSED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0066",
+    "name": "Pooja Murmu",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00066",
+    "status": "VERIFIED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0067",
+    "name": "Amit Besra",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00067",
+    "status": "SANCTIONED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0068",
+    "name": "Ramesh Baski",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00068",
+    "status": "VERIFIED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0069",
+    "name": "Shanti Tudu",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00069",
+    "status": "SUBMITTED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0070",
+    "name": "Sarita Munda",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00070",
+    "status": "ACTION_REQUIRED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0071",
+    "name": "Gita Tudu",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00071",
+    "status": "SUBMITTED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0072",
+    "name": "Dev Marandi",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00072",
+    "status": "UNDER_REVIEW",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0073",
+    "name": "Anita Munda",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00073",
+    "status": "UNDER_REVIEW",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0074",
+    "name": "Anita Besra",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00074",
+    "status": "SANCTIONED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0075",
+    "name": "Ravi Tudu",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00075",
+    "status": "SUBMITTED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0076",
+    "name": "Sunil Besra",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00076",
+    "status": "UNDER_REVIEW",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0077",
+    "name": "Rupa Baski",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00077",
+    "status": "ACTION_REQUIRED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0078",
+    "name": "Ramesh Murmu",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00078",
+    "status": "VERIFIED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0079",
+    "name": "Rupa Tudu",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00079",
+    "status": "ACTION_REQUIRED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0080",
+    "name": "Dev Munda",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00080",
+    "status": "SUBMITTED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0081",
+    "name": "Arjun Marandi",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00081",
+    "status": "VERIFIED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0082",
+    "name": "Amit Hembram",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00082",
+    "status": "VERIFIED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0083",
+    "name": "Kavita Kisku",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00083",
+    "status": "SANCTIONED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0084",
+    "name": "Suresh Besra",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00084",
+    "status": "SUBMITTED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0085",
+    "name": "Pooja Kumar",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00085",
+    "status": "UNDER_REVIEW",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0086",
+    "name": "Sunita Baski",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00086",
+    "status": "UNDER_REVIEW",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0087",
+    "name": "Kavita Baski",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00087",
+    "status": "SANCTIONED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0088",
+    "name": "Mangal Munda",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00088",
+    "status": "UNDER_REVIEW",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0089",
+    "name": "Ramesh Tudu",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00089",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0090",
+    "name": "Ravi Soren",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00090",
+    "status": "SUBMITTED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0091",
+    "name": "Birsa Kisku",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00091",
+    "status": "ACTION_REQUIRED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0092",
+    "name": "Suresh Kumar",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00092",
+    "status": "SUBMITTED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0093",
+    "name": "Amit Munda",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00093",
+    "status": "SANCTIONED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0094",
+    "name": "Dev Tudu",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00094",
+    "status": "DISBURSED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0095",
+    "name": "Shanti Baski",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00095",
+    "status": "DISBURSED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0096",
+    "name": "Dev Baski",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00096",
+    "status": "ACTION_REQUIRED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0097",
+    "name": "Lakshmi Kumar",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00097",
+    "status": "ACTION_REQUIRED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0098",
+    "name": "Lakshmi Munda",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00098",
+    "status": "DISBURSED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0099",
+    "name": "Karan Kisku",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00099",
+    "status": "DISBURSED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0100",
+    "name": "Dev Hembram",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00100",
+    "status": "SUBMITTED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0101",
+    "name": "Pooja Munda",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00101",
+    "status": "VERIFIED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0102",
+    "name": "Pooja Baski",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00102",
+    "status": "SUBMITTED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0103",
+    "name": "Lakshmi Tudu",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00103",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0104",
+    "name": "Pooja Marandi",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00104",
+    "status": "SANCTIONED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0105",
+    "name": "Arjun Murmu",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00105",
+    "status": "DISBURSED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0106",
+    "name": "Suresh Kumar",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00106",
+    "status": "UNDER_REVIEW",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0107",
+    "name": "Meena Tudu",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00107",
+    "status": "VERIFIED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0108",
+    "name": "Arjun Kisku",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00108",
+    "status": "SUBMITTED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0109",
+    "name": "Amit Kisku",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00109",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0110",
+    "name": "Amit Baski",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00110",
+    "status": "DISBURSED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0111",
+    "name": "Shanti Kisku",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00111",
+    "status": "ACTION_REQUIRED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0112",
+    "name": "Lakshmi Marandi",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00112",
+    "status": "VERIFIED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0113",
+    "name": "Pooja Besra",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00113",
+    "status": "VERIFIED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0114",
+    "name": "Birsa Tudu",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00114",
+    "status": "SUBMITTED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0115",
+    "name": "Amit Marandi",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00115",
+    "status": "SUBMITTED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0116",
+    "name": "Sunil Tudu",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00116",
+    "status": "SANCTIONED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0117",
+    "name": "Sunil Soren",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00117",
+    "status": "DISBURSED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0118",
+    "name": "Sunita Kumar",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00118",
+    "status": "SANCTIONED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0119",
+    "name": "Karan Murmu",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00119",
+    "status": "UNDER_REVIEW",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0120",
+    "name": "Meena Soren",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00120",
+    "status": "VERIFIED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0121",
+    "name": "Kavita Kumar",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00121",
+    "status": "VERIFIED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0122",
+    "name": "Ravi Besra",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00122",
+    "status": "SUBMITTED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0123",
+    "name": "Gita Kisku",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00123",
+    "status": "DISBURSED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0124",
+    "name": "Meena Hembram",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00124",
+    "status": "DISBURSED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0125",
+    "name": "Karan Baski",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00125",
+    "status": "SANCTIONED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0126",
+    "name": "Shanti Tudu",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00126",
+    "status": "SUBMITTED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0127",
+    "name": "Suresh Munda",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00127",
+    "status": "DISBURSED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0128",
+    "name": "Sunita Murmu",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00128",
+    "status": "DISBURSED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0129",
+    "name": "Lakshmi Hembram",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00129",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0130",
+    "name": "Suresh Murmu",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00130",
+    "status": "ACTION_REQUIRED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0131",
+    "name": "Sunita Besra",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00131",
+    "status": "VERIFIED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0132",
+    "name": "Sunita Kumar",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00132",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0133",
+    "name": "Mangal Marandi",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00133",
+    "status": "VERIFIED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0134",
+    "name": "Sunil Soren",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00134",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0135",
+    "name": "Sarita Besra",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00135",
+    "status": "UNDER_REVIEW",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0136",
+    "name": "Kavita Munda",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00136",
+    "status": "SANCTIONED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0137",
+    "name": "Dev Besra",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00137",
+    "status": "SANCTIONED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0138",
+    "name": "Sunita Tudu",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00138",
+    "status": "SANCTIONED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0139",
+    "name": "Ramesh Munda",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00139",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0140",
+    "name": "Ramesh Besra",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00140",
+    "status": "VERIFIED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0141",
+    "name": "Karan Munda",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00141",
+    "status": "VERIFIED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0142",
+    "name": "Amit Murmu",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00142",
+    "status": "VERIFIED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0143",
+    "name": "Amit Baski",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00143",
+    "status": "VERIFIED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0144",
+    "name": "Sunita Soren",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00144",
+    "status": "DISBURSED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0145",
+    "name": "Shanti Tudu",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00145",
+    "status": "VERIFIED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0146",
+    "name": "Gita Hembram",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00146",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0147",
+    "name": "Birsa Hembram",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00147",
+    "status": "VERIFIED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0148",
+    "name": "Meena Murmu",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00148",
+    "status": "VERIFIED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0149",
+    "name": "Shanti Hembram",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00149",
+    "status": "SANCTIONED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0150",
+    "name": "Sarita Baski",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00150",
+    "status": "SANCTIONED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0151",
+    "name": "Meena Kisku",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00151",
+    "status": "SUBMITTED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0152",
+    "name": "Sunita Munda",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00152",
+    "status": "SANCTIONED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0153",
+    "name": "Karan Kumar",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00153",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0154",
+    "name": "Anita Marandi",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00154",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0155",
+    "name": "Dev Murmu",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00155",
+    "status": "SUBMITTED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0156",
+    "name": "Arjun Soren",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00156",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0157",
+    "name": "Karan Besra",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00157",
+    "status": "DISBURSED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0158",
+    "name": "Anita Tudu",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00158",
+    "status": "VERIFIED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0159",
+    "name": "Pooja Tudu",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00159",
+    "status": "DISBURSED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0160",
+    "name": "Lakshmi Hembram",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00160",
+    "status": "UNDER_REVIEW",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0161",
+    "name": "Lakshmi Tudu",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00161",
+    "status": "SANCTIONED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0162",
+    "name": "Sarita Soren",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00162",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0163",
+    "name": "Arjun Tudu",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00163",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0164",
+    "name": "Pooja Baski",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00164",
+    "status": "SANCTIONED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0165",
+    "name": "Meena Kumar",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00165",
+    "status": "SUBMITTED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0166",
+    "name": "Pooja Kumar",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00166",
+    "status": "SANCTIONED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0167",
+    "name": "Kavita Marandi",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00167",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0168",
+    "name": "Mangal Tudu",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00168",
+    "status": "SANCTIONED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0169",
+    "name": "Sunil Marandi",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00169",
+    "status": "SUBMITTED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0170",
+    "name": "Lakshmi Tudu",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00170",
+    "status": "DISBURSED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0171",
+    "name": "Sarita Marandi",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00171",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0172",
+    "name": "Shanti Kumar",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00172",
+    "status": "VERIFIED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0173",
+    "name": "Suresh Murmu",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00173",
+    "status": "SANCTIONED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0174",
+    "name": "Sarita Hembram",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00174",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0175",
+    "name": "Anita Besra",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00175",
+    "status": "VERIFIED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0176",
+    "name": "Dev Hembram",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00176",
+    "status": "UNDER_REVIEW",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0177",
+    "name": "Gita Kisku",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00177",
+    "status": "VERIFIED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0178",
+    "name": "Sarita Kisku",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00178",
+    "status": "SUBMITTED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0179",
+    "name": "Meena Kisku",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00179",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0180",
+    "name": "Sunita Munda",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00180",
+    "status": "VERIFIED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0181",
+    "name": "Karan Kisku",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00181",
+    "status": "DISBURSED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0182",
+    "name": "Sarita Baski",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00182",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0183",
+    "name": "Sunil Soren",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00183",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0184",
+    "name": "Arjun Kumar",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00184",
+    "status": "VERIFIED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0185",
+    "name": "Sunita Marandi",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00185",
+    "status": "SUBMITTED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0186",
+    "name": "Dev Hembram",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00186",
+    "status": "SANCTIONED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0187",
+    "name": "Anita Baski",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00187",
+    "status": "UNDER_REVIEW",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0188",
+    "name": "Rupa Munda",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00188",
+    "status": "DISBURSED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0189",
+    "name": "Shanti Murmu",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00189",
+    "status": "DISBURSED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0190",
+    "name": "Amit Munda",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00190",
+    "status": "SANCTIONED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0191",
+    "name": "Mangal Kumar",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00191",
+    "status": "SUBMITTED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0192",
+    "name": "Ravi Baski",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00192",
+    "status": "UNDER_REVIEW",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0193",
+    "name": "Rupa Murmu",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00193",
+    "status": "ACTION_REQUIRED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0194",
+    "name": "Rupa Kumar",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00194",
+    "status": "DISBURSED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0195",
+    "name": "Ramesh Hembram",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00195",
+    "status": "UNDER_REVIEW",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0196",
+    "name": "Sunil Baski",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00196",
+    "status": "DISBURSED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0197",
+    "name": "Sarita Hembram",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00197",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0198",
+    "name": "Ramesh Kumar",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00198",
+    "status": "SUBMITTED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0199",
+    "name": "Dev Kumar",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00199",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0200",
+    "name": "Anita Soren",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00200",
+    "status": "SUBMITTED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0201",
+    "name": "Arjun Kisku",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00201",
+    "status": "SANCTIONED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0202",
+    "name": "Sunita Baski",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00202",
+    "status": "UNDER_REVIEW",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0203",
+    "name": "Gita Baski",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00203",
+    "status": "SANCTIONED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0204",
+    "name": "Anita Munda",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00204",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0205",
+    "name": "Rupa Kumar",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00205",
+    "status": "SUBMITTED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0206",
+    "name": "Rupa Marandi",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00206",
+    "status": "SANCTIONED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0207",
+    "name": "Ramesh Murmu",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00207",
+    "status": "SUBMITTED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0208",
+    "name": "Mangal Besra",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00208",
+    "status": "SANCTIONED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0209",
+    "name": "Anita Murmu",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00209",
+    "status": "DISBURSED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0210",
+    "name": "Suresh Kumar",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00210",
+    "status": "ACTION_REQUIRED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0211",
+    "name": "Sarita Marandi",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00211",
+    "status": "SANCTIONED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0212",
+    "name": "Shanti Kumar",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00212",
+    "status": "SUBMITTED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0213",
+    "name": "Sunita Tudu",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00213",
+    "status": "SUBMITTED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0214",
+    "name": "Pooja Kisku",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00214",
+    "status": "ACTION_REQUIRED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0215",
+    "name": "Suresh Hembram",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00215",
+    "status": "SUBMITTED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0216",
+    "name": "Arjun Hembram",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00216",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0217",
+    "name": "Ramesh Murmu",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00217",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0218",
+    "name": "Ravi Soren",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00218",
+    "status": "DISBURSED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0219",
+    "name": "Dev Kisku",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00219",
+    "status": "DISBURSED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0220",
+    "name": "Amit Baski",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00220",
+    "status": "SANCTIONED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0221",
+    "name": "Suresh Hembram",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00221",
+    "status": "VERIFIED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0222",
+    "name": "Karan Soren",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00222",
+    "status": "DISBURSED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0223",
+    "name": "Kavita Kumar",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00223",
+    "status": "DISBURSED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0224",
+    "name": "Kavita Marandi",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00224",
+    "status": "SANCTIONED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0225",
+    "name": "Rupa Kisku",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00225",
+    "status": "ACTION_REQUIRED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0226",
+    "name": "Suresh Marandi",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00226",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0227",
+    "name": "Dev Kumar",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00227",
+    "status": "VERIFIED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0228",
+    "name": "Mangal Marandi",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00228",
+    "status": "VERIFIED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0229",
+    "name": "Sarita Tudu",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00229",
+    "status": "SUBMITTED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0230",
+    "name": "Meena Baski",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00230",
+    "status": "DISBURSED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0231",
+    "name": "Karan Kisku",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00231",
+    "status": "UNDER_REVIEW",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0232",
+    "name": "Rupa Munda",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00232",
+    "status": "DISBURSED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0233",
+    "name": "Meena Munda",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00233",
+    "status": "DISBURSED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0234",
+    "name": "Anita Hembram",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00234",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0235",
+    "name": "Amit Kumar",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00235",
+    "status": "SUBMITTED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0236",
+    "name": "Sunita Baski",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00236",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0237",
+    "name": "Ravi Besra",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00237",
+    "status": "SUBMITTED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0238",
+    "name": "Karan Hembram",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00238",
+    "status": "DISBURSED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0239",
+    "name": "Gita Kisku",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00239",
+    "status": "SANCTIONED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0240",
+    "name": "Mangal Hembram",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00240",
+    "status": "SUBMITTED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0241",
+    "name": "Anita Murmu",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00241",
+    "status": "SUBMITTED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0242",
+    "name": "Shanti Besra",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00242",
+    "status": "VERIFIED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0243",
+    "name": "Kavita Soren",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00243",
+    "status": "SANCTIONED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0244",
+    "name": "Karan Soren",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00244",
+    "status": "SUBMITTED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0245",
+    "name": "Kavita Munda",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00245",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0246",
+    "name": "Anita Murmu",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00246",
+    "status": "VERIFIED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0247",
+    "name": "Pooja Hembram",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00247",
+    "status": "ACTION_REQUIRED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0248",
+    "name": "Meena Munda",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00248",
+    "status": "DISBURSED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0249",
+    "name": "Meena Soren",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00249",
+    "status": "ACTION_REQUIRED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0250",
+    "name": "Birsa Murmu",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00250",
+    "status": "DISBURSED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0251",
+    "name": "Anita Besra",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00251",
+    "status": "SUBMITTED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0252",
+    "name": "Lakshmi Munda",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00252",
+    "status": "DISBURSED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0253",
+    "name": "Shanti Marandi",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00253",
+    "status": "UNDER_REVIEW",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0254",
+    "name": "Shanti Marandi",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00254",
+    "status": "UNDER_REVIEW",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0255",
+    "name": "Anita Baski",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00255",
+    "status": "ACTION_REQUIRED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0256",
+    "name": "Ramesh Tudu",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00256",
+    "status": "VERIFIED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0257",
+    "name": "Sarita Hembram",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00257",
+    "status": "ACTION_REQUIRED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0258",
+    "name": "Sunil Soren",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00258",
+    "status": "DISBURSED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0259",
+    "name": "Karan Soren",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00259",
+    "status": "VERIFIED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0260",
+    "name": "Dev Besra",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00260",
+    "status": "VERIFIED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0261",
+    "name": "Kavita Baski",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00261",
+    "status": "SUBMITTED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0262",
+    "name": "Amit Kisku",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00262",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0263",
+    "name": "Gita Soren",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00263",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0264",
+    "name": "Dev Murmu",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00264",
+    "status": "ACTION_REQUIRED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0265",
+    "name": "Karan Kisku",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00265",
+    "status": "SUBMITTED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0266",
+    "name": "Dev Soren",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00266",
+    "status": "SANCTIONED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0267",
+    "name": "Meena Kisku",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00267",
+    "status": "UNDER_REVIEW",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0268",
+    "name": "Dev Marandi",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00268",
+    "status": "SUBMITTED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0269",
+    "name": "Sarita Murmu",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00269",
+    "status": "VERIFIED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0270",
+    "name": "Sunil Soren",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00270",
+    "status": "DISBURSED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0271",
+    "name": "Mangal Munda",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00271",
+    "status": "VERIFIED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0272",
+    "name": "Karan Soren",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00272",
+    "status": "DISBURSED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0273",
+    "name": "Dev Munda",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00273",
+    "status": "SUBMITTED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0274",
+    "name": "Meena Kumar",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00274",
+    "status": "UNDER_REVIEW",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0275",
+    "name": "Shanti Kisku",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00275",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0276",
+    "name": "Sunil Besra",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00276",
+    "status": "UNDER_REVIEW",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0277",
+    "name": "Shanti Tudu",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00277",
+    "status": "SANCTIONED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0278",
+    "name": "Meena Hembram",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00278",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0279",
+    "name": "Arjun Kisku",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00279",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0280",
+    "name": "Meena Tudu",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00280",
+    "status": "UNDER_REVIEW",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0281",
+    "name": "Mangal Tudu",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00281",
+    "status": "SUBMITTED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0282",
+    "name": "Pooja Besra",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00282",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0283",
+    "name": "Anita Hembram",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00283",
+    "status": "SANCTIONED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0284",
+    "name": "Anita Besra",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00284",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0285",
+    "name": "Mangal Murmu",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00285",
+    "status": "VERIFIED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0286",
+    "name": "Pooja Soren",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00286",
+    "status": "SUBMITTED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0287",
+    "name": "Mangal Murmu",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00287",
+    "status": "DISBURSED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0288",
+    "name": "Lakshmi Baski",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00288",
+    "status": "VERIFIED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0289",
+    "name": "Gita Tudu",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00289",
+    "status": "SUBMITTED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0290",
+    "name": "Gita Tudu",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00290",
+    "status": "SUBMITTED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0291",
+    "name": "Birsa Tudu",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00291",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0292",
+    "name": "Kavita Tudu",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00292",
+    "status": "UNDER_REVIEW",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0293",
+    "name": "Ramesh Tudu",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00293",
+    "status": "DISBURSED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0294",
+    "name": "Dev Baski",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00294",
+    "status": "DISBURSED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0295",
+    "name": "Amit Hembram",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00295",
+    "status": "DISBURSED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0296",
+    "name": "Meena Hembram",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00296",
+    "status": "UNDER_REVIEW",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0297",
+    "name": "Lakshmi Munda",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00297",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0298",
+    "name": "Shanti Hembram",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00298",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0299",
+    "name": "Rupa Soren",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00299",
+    "status": "VERIFIED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0300",
+    "name": "Pooja Tudu",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00300",
+    "status": "SUBMITTED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0301",
+    "name": "Amit Kisku",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00301",
+    "status": "SUBMITTED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0302",
+    "name": "Karan Marandi",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00302",
+    "status": "UNDER_REVIEW",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0303",
+    "name": "Mangal Murmu",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00303",
+    "status": "VERIFIED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0304",
+    "name": "Kavita Kisku",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00304",
+    "status": "VERIFIED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0305",
+    "name": "Sarita Murmu",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00305",
+    "status": "DISBURSED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0306",
+    "name": "Amit Marandi",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00306",
+    "status": "UNDER_REVIEW",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0307",
+    "name": "Anita Baski",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00307",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0308",
+    "name": "Sunil Tudu",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00308",
+    "status": "DISBURSED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0309",
+    "name": "Pooja Kisku",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00309",
+    "status": "SANCTIONED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0310",
+    "name": "Suresh Murmu",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00310",
+    "status": "SANCTIONED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0311",
+    "name": "Birsa Kumar",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00311",
+    "status": "VERIFIED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0312",
+    "name": "Sarita Hembram",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00312",
+    "status": "VERIFIED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0313",
+    "name": "Sunil Murmu",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00313",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0314",
+    "name": "Pooja Kumar",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00314",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0315",
+    "name": "Arjun Hembram",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00315",
+    "status": "SUBMITTED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0316",
+    "name": "Pooja Marandi",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00316",
+    "status": "SANCTIONED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0317",
+    "name": "Sunita Hembram",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00317",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0318",
+    "name": "Karan Munda",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00318",
+    "status": "DISBURSED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0319",
+    "name": "Kavita Baski",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00319",
+    "status": "ACTION_REQUIRED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0320",
+    "name": "Gita Tudu",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00320",
+    "status": "DISBURSED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0321",
+    "name": "Ramesh Besra",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00321",
+    "status": "ACTION_REQUIRED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0322",
+    "name": "Kavita Marandi",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00322",
+    "status": "SUBMITTED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0323",
+    "name": "Amit Munda",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00323",
+    "status": "SUBMITTED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0324",
+    "name": "Anita Hembram",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00324",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0325",
+    "name": "Karan Marandi",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00325",
+    "status": "UNDER_REVIEW",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0326",
+    "name": "Ramesh Kumar",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00326",
+    "status": "VERIFIED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0327",
+    "name": "Shanti Marandi",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00327",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0328",
+    "name": "Kavita Murmu",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00328",
+    "status": "UNDER_REVIEW",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0329",
+    "name": "Amit Marandi",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00329",
+    "status": "ACTION_REQUIRED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0330",
+    "name": "Amit Marandi",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00330",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0331",
+    "name": "Amit Kumar",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00331",
+    "status": "ACTION_REQUIRED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0332",
+    "name": "Kavita Munda",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00332",
+    "status": "VERIFIED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0333",
+    "name": "Suresh Hembram",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00333",
+    "status": "DISBURSED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0334",
+    "name": "Arjun Kumar",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00334",
+    "status": "SANCTIONED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0335",
+    "name": "Anita Marandi",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00335",
+    "status": "SANCTIONED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0336",
+    "name": "Ravi Tudu",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00336",
+    "status": "SANCTIONED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0337",
+    "name": "Sarita Kumar",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00337",
+    "status": "DISBURSED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0338",
+    "name": "Mangal Baski",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00338",
+    "status": "DISBURSED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0339",
+    "name": "Shanti Baski",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00339",
+    "status": "ACTION_REQUIRED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0340",
+    "name": "Karan Besra",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00340",
+    "status": "VERIFIED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0341",
+    "name": "Lakshmi Marandi",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00341",
+    "status": "SANCTIONED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0342",
+    "name": "Meena Tudu",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00342",
+    "status": "VERIFIED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0343",
+    "name": "Sunil Munda",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00343",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0344",
+    "name": "Ramesh Hembram",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00344",
+    "status": "SANCTIONED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0345",
+    "name": "Arjun Baski",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00345",
+    "status": "VERIFIED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0346",
+    "name": "Sunita Besra",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "application_no": "APP-SYN-2026-00346",
+    "status": "DISBURSED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0347",
+    "name": "Sarita Kumar",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00347",
+    "status": "VERIFIED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0348",
+    "name": "Gita Kumar",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00348",
+    "status": "UNDER_REVIEW",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0349",
+    "name": "Amit Munda",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00349",
+    "status": "ACTION_REQUIRED",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0350",
+    "name": "Arjun Murmu",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00350",
+    "status": "SANCTIONED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0351",
+    "name": "Lakshmi Hembram",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00351",
+    "status": "DISBURSED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0352",
+    "name": "Mangal Marandi",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00352",
+    "status": "SANCTIONED",
+    "scheme": "National Overseas Scholarship for ST Candidates"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0353",
+    "name": "Ravi Kumar",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00353",
+    "status": "SANCTIONED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0354",
+    "name": "Sunita Kumar",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00354",
+    "status": "UNDER_REVIEW",
+    "scheme": "Top Class Education Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0355",
+    "name": "Lakshmi Munda",
+    "state": "Odisha",
+    "district": "Koraput",
+    "application_no": "APP-SYN-2026-00355",
+    "status": "SUBMITTED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0356",
+    "name": "Birsa Soren",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00356",
+    "status": "DISBURSED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0357",
+    "name": "Rupa Baski",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "application_no": "APP-SYN-2026-00357",
+    "status": "DISBURSED",
+    "scheme": "Post-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0358",
+    "name": "Lakshmi Munda",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "application_no": "APP-SYN-2026-00358",
+    "status": "SUBMITTED",
+    "scheme": "Pre-Matric Scholarship for ST Students"
+  },
+  {
+    "apaar_id": "APAAR-2026-SYN-0359",
+    "name": "Arjun Hembram",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "application_no": "APP-SYN-2026-00359",
+    "status": "VERIFIED",
+    "scheme": "National Fellowship for ST Students (NFST)"
+  }
+]

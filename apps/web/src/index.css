@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-navy: #0b1d3a;
+  --primary-indigo: #1e3a8a;
+  --secondary-teal: #0d7a57;
+  --accent-saffron: #ea580c;
+  --bg-main: #f8fafc;
+}
+
+body {
+  font-family: 'Inter', 'Noto Sans', 'Noto Sans Devanagari', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #f8fafc;
+  color: #0f172a;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Accessibility: High Contrast Mode */
+body.high-contrast {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+body.high-contrast .bg-white,
+body.high-contrast .bg-slate-50,
+body.high-contrast .bg-slate-100 {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+
+body.high-contrast a,
+body.high-contrast button {
+  outline: 2px solid #facc15 !important;
+}
+
+/* Accessibility: Large Text Mode */
+body.large-text {
+  font-size: 1.15rem;
+}
+
+body.large-text h1 { font-size: 2.5rem; }
+body.large-text h2 { font-size: 2rem; }
+body.large-text h3 { font-size: 1.6rem; }
+body.large-text p, body.large-text span, body.large-text button { font-size: 1.15rem; }
+
+/* Data Saver / Low Bandwidth Mode */
+body.data-saver * {
+  animation: none !important;
+  transition: none !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
