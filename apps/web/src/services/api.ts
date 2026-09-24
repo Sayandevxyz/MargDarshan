@@ -1,4 +1,5 @@
-const BASE_URL = '/api';
+const API_HOST = import.meta.env.VITE_API_URL ? (import.meta.env.VITE_API_URL as string).replace(/\/$/, '') : '';
+const BASE_URL = `${API_HOST}/api`;
 
 export function getAuthToken(): string | null {
   return localStorage.getItem('margdarshan_token');

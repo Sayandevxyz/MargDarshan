@@ -1,0 +1,50 @@
+services:
+  # ========================================================
+  # MargDarshan Backend Web Service (FastAPI + Neon PostgreSQL)
+  # ========================================================
+  - type: web
+    name: margdarshan-backend
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: "pip install -r backend/requirements.txt"
+    startCommand: "python -m backend.seed.seed_data && uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: PYTHONPATH
+        value: .
+      - key: AI_PROVIDER
+        value: groq
+      - key: GROQ_MODEL
+        value: llama-3.3-70b-versatile
+      - key: GROQ_API_KEY
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: DEMO_MODE
+        value: "true"
+
+  # ========================================================
+  # MargDarshan Frontend Static Site (React 18 + Vite)
+  # ========================================================
+  - type: web
+    name: margdarshan-frontend
+    env: static
+    region: oregon
+    plan: free
+    rootDir: apps/web
+    buildCommand: "npm install && npm run build"
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: margdarshan-backend
+          property: host
