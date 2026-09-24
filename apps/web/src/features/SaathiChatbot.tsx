@@ -203,9 +203,11 @@ export const SaathiChatbot: React.FC<SaathiChatbotProps> = ({
       {/* Header (Section 28) */}
       <div className="bg-gradient-to-r from-blue-950 via-indigo-900 to-blue-900 text-white p-4 flex items-center justify-between shadow-sm">
         <div className="flex items-center space-x-2.5">
-          <div className="w-9 h-9 rounded-xl bg-orange-500/20 border border-orange-400/40 flex items-center justify-center text-lg">
-            🤖
-          </div>
+          <img 
+            src="/logo.png" 
+            alt="SAATHI Logo" 
+            className="w-10 h-10 rounded-xl object-cover bg-white p-0.5 border border-orange-400/50 shadow-sm"
+          />
           <div>
             <div className="flex items-center space-x-1.5">
               <h3 className="font-extrabold text-sm tracking-wide">SAATHI</h3>

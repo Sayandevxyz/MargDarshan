@@ -466,11 +466,11 @@ export const App: React.FC = () => {
       {/* Persistent SAATHI Floating Button (Section 95) */}
       <button
         onClick={() => handleTriggerSaathi()}
-        className="fixed bottom-18 md:bottom-6 right-6 z-40 bg-gradient-to-r from-blue-700 to-indigo-800 hover:from-blue-800 hover:to-indigo-900 text-white font-bold text-xs py-3 px-4 rounded-full shadow-xl flex items-center space-x-2 border-2 border-white/20 transition-all hover:scale-105"
+        className="fixed bottom-18 md:bottom-6 right-6 z-40 bg-gradient-to-r from-blue-700 to-indigo-800 hover:from-blue-800 hover:to-indigo-900 text-white font-bold text-xs py-2.5 px-4 rounded-full shadow-2xl flex items-center space-x-2.5 border-2 border-white/30 transition-all hover:scale-105"
         title="Open SAATHI AI Scholarship Companion"
       >
-        <MessageSquare className="w-4 h-4 text-orange-400" />
-        <span>💬 SAATHI</span>
+        <img src="/logo.png" alt="SAATHI" className="w-5 h-5 rounded-full object-cover bg-white p-0.5" />
+        <span className="tracking-wide">Ask SAATHI AI</span>
       </button>
 
       {/* Mobile Bottom Navigation (Section 94) */}

@@ -101,9 +101,13 @@ export const Header: React.FC<HeaderProps> = ({
       {/* Main Navigation Brand Bar */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 flex items-center justify-between">
         <div className="flex items-center space-x-3">
-          {/* Emblem Motif */}
-          <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-blue-900 to-indigo-950 flex items-center justify-center text-white font-bold shadow-md border border-blue-800">
-            <span className="text-xl text-orange-400">MD</span>
+          {/* Official MargDarshan App Logo */}
+          <div className="relative group">
+            <img 
+              src="/logo.png" 
+              alt="MargDarshan Logo" 
+              className="w-11 h-11 rounded-2xl shadow-md border border-slate-200/80 object-cover bg-white p-0.5 hover:scale-105 transition-transform duration-200" 
+            />
           </div>
 
           <div>

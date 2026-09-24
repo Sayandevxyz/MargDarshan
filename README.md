@@ -1,8 +1,12 @@
-# MargDarshan (मार्गदर्शन) + SAATHI (साथी)
-### Unified Scholarship Guidance & Verification Platform | Ministry of Tribal Affairs (MoTA)
-**Team:** GravityX  
-**Theme:** Smart Automation / Software  
-**Tagline:** *"One student. One dashboard. One scholarship journey."*
+<div align="center">
+  <img src="apps/web/public/logo.png" width="150" alt="MargDarshan Logo" style="border-radius: 24px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+  <h1 style="margin-top: 12px; margin-bottom: 4px;">MargDarshan (मार्गदर्शन) + SAATHI (साथी)</h1>
+  <p><strong>Unified Scholarship Guidance & Verification Platform | Ministry of Tribal Affairs (MoTA)</strong></p>
+  <p><em>"One student. One dashboard. One scholarship journey."</em></p>
+  <p>
+    <strong>Team GravityX</strong> • Smart Automation / Software
+  </p>
+</div>
 
 ---
 
